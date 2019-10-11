@@ -1,0 +1,26 @@
+<html>
+    <head> 
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            function formata(address) {
+                return 'O usuário mora em ' + address.cidade + ' / ' + address.uf + ', no bairro ' + address.bairro + ', na rua ' + address.rua + ' com nº ' + address.numero + '.';
+            }
+
+
+        var endereco = {
+          rua: "Rua dos Pinheiros",
+          numero: 1293,
+          bairro: "Centro",
+          cidade: "São Paulo",
+          uf: "SP"
+        };
+
+        var resultado = formata(endereco)
+        console.log(resultado);
+        
+
+        </script>
+    </body>
+<html>
